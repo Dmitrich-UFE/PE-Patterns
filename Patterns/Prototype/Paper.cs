@@ -10,7 +10,6 @@ namespace Prototype
     internal class Paper: IPaper
     {
         private string _text;
-        internal string Text { get { return _text; } }
 
         internal Paper(string ex_text): base(ex_text) { _text = ex_text; }
         internal Paper(IPaper paper): base(paper) { _text = paper.Text; }
