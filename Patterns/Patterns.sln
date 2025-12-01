@@ -3,11 +3,13 @@ Microsoft Visual Studio Solution File, Format Version 12.00
 # Visual Studio Version 17
 VisualStudioVersion = 17.8.34408.163
 MinimumVisualStudioVersion = 10.0.40219.1
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Factory_method", "Patterns\Factory_method.csproj", "{6A5A9F8B-6D62-4F5E-A1E2-6E711205F980}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Factory_method", "Patterns\Factory_method.csproj", "{6A5A9F8B-6D62-4F5E-A1E2-6E711205F980}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Abstract_Factory", "Abstract_Factory\Abstract_Factory.csproj", "{7C5F8EB7-83FA-49A2-9929-6064A035BCDA}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Abstract_Factory", "Abstract_Factory\Abstract_Factory.csproj", "{7C5F8EB7-83FA-49A2-9929-6064A035BCDA}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Builder", "Builder\Builder.csproj", "{4E531A1E-57FB-444A-9E2D-BF059C64C79F}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Builder", "Builder\Builder.csproj", "{4E531A1E-57FB-444A-9E2D-BF059C64C79F}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Prototype", "Prototype\Prototype.csproj", "{611318F7-57FB-4D3D-9797-CCDF314D0DD1}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -27,6 +29,10 @@ Global
 		{4E531A1E-57FB-444A-9E2D-BF059C64C79F}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{4E531A1E-57FB-444A-9E2D-BF059C64C79F}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{4E531A1E-57FB-444A-9E2D-BF059C64C79F}.Release|Any CPU.Build.0 = Release|Any CPU
+		{611318F7-57FB-4D3D-9797-CCDF314D0DD1}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{611318F7-57FB-4D3D-9797-CCDF314D0DD1}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{611318F7-57FB-4D3D-9797-CCDF314D0DD1}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{611318F7-57FB-4D3D-9797-CCDF314D0DD1}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
