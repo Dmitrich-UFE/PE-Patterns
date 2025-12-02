@@ -4,7 +4,7 @@
     {
         static void Main(string[] args)
         {
-            Console.WriteLine("Hello, World!");
+           
 
             Log log1 = new Log();
             Box box1 = new Box();
