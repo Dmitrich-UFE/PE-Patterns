@@ -2,6 +2,7 @@
 {
     internal class Program
     {
+        //Отмена и добавление изменений в графический редактор 
         static void Main(string[] args)
         {
             Editor _gEditor  = new Editor();
