@@ -34,6 +34,8 @@ namespace Memento
             _editor.Restore(Undo());
             Console.WriteLine($"Сейчас в редакторе сохранено {_editor.Count()} фигур");
 
+            Thread.Sleep(10000);
+
         }
 
         static EditorMemento Undo() 
@@ -51,5 +53,7 @@ namespace Memento
             _states.Push(eM);
             Console.WriteLine("Состояние добавляется...");
         }
+
+
     }
 }
