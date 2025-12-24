@@ -15,9 +15,11 @@
 
             IPhysicalObject compositor2 = Program.GroupPhysicalObjects(log2, box1, compositor1);
 
+            Console.WriteLine("Просчёт физики объектов в иерархии");
             compositor2.CalculatePhysics();
 
-
+            Console.WriteLine("\nПрограмма завершила работу. Поток заснул на 100 секунд");
+            Thread.Sleep(100000);
         }
 
         static IPhysicalObject GroupPhysicalObjects(params IPhysicalObject[] objs) 

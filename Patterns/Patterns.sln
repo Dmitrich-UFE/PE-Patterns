@@ -3,7 +3,7 @@ Microsoft Visual Studio Solution File, Format Version 12.00
 # Visual Studio Version 17
 VisualStudioVersion = 17.8.34408.163
 MinimumVisualStudioVersion = 10.0.40219.1
-Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Factory_method", "Patterns\Factory_method.csproj", "{6A5A9F8B-6D62-4F5E-A1E2-6E711205F980}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Factory_method2", "Patterns\Factory_method2.csproj", "{6A5A9F8B-6D62-4F5E-A1E2-6E711205F980}"
 EndProject
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Abstract_Factory", "Abstract_Factory\Abstract_Factory.csproj", "{7C5F8EB7-83FA-49A2-9929-6064A035BCDA}"
 EndProject
@@ -44,6 +44,10 @@ EndProject
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Strategy", "Strategy\Strategy.csproj", "{7B50DCE5-C7D8-49B1-8F27-F77EBE80A71E}"
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Template_method", "Template_method\Template_method.csproj", "{FD48FF4A-E2E0-4F21-8D65-CFFD974C50C7}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Visitor", "Visitor\Visitor.csproj", "{7361F8A2-6596-488B-AF89-2A323196B98B}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Factory_method", "Factory_method\Factory_method.csproj", "{06BD60C6-AEF4-4E69-94AB-6BE6BC66DAEA}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -135,6 +139,14 @@ Global
 		{FD48FF4A-E2E0-4F21-8D65-CFFD974C50C7}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{FD48FF4A-E2E0-4F21-8D65-CFFD974C50C7}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{FD48FF4A-E2E0-4F21-8D65-CFFD974C50C7}.Release|Any CPU.Build.0 = Release|Any CPU
+		{7361F8A2-6596-488B-AF89-2A323196B98B}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{7361F8A2-6596-488B-AF89-2A323196B98B}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{7361F8A2-6596-488B-AF89-2A323196B98B}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{7361F8A2-6596-488B-AF89-2A323196B98B}.Release|Any CPU.Build.0 = Release|Any CPU
+		{06BD60C6-AEF4-4E69-94AB-6BE6BC66DAEA}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{06BD60C6-AEF4-4E69-94AB-6BE6BC66DAEA}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{06BD60C6-AEF4-4E69-94AB-6BE6BC66DAEA}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{06BD60C6-AEF4-4E69-94AB-6BE6BC66DAEA}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE

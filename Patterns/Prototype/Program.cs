@@ -4,14 +4,20 @@
     {
         static void Main(string[] args)
         {
-            IPaper paper = new Paper("fkjhbdfsbjkhfdkbjh");
+            IMessage msg = new Message("fkjhbdfsbjkhfdkbjh");
 
-            IPaper paper2 = paper.Clone();
-            IPaper paper3 = new Paper(paper2);
+            IMessage msg2 = msg.Clone();
+            IMessage msg3 = new Message(msg2);
+            Console.WriteLine("Создали сообщение msg. Скопировали его в msg2. msg2 скопировали в msg3");
 
-            paper = null;
+            Console.WriteLine("Исходный msg занулили");
+            msg = null;
 
-            Console.WriteLine(paper2.Text);
+            Console.WriteLine("\nПытаемся вывести msg2");
+            Console.WriteLine(msg2.Text);
+
+            Console.WriteLine("\nПрограмма завершила работу. Поток заснул на 100 секунд");
+            Thread.Sleep(100000);
         }
     }
 }

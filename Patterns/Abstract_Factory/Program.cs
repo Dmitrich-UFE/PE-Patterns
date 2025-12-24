@@ -14,6 +14,9 @@
 
             myBag.Zip();
             myShirt.Wear();
+
+            Console.WriteLine("\nПрограмма завершила работу. Поток заснул на 100 секунд");
+            Thread.Sleep(100000);
         }
     }
 

@@ -17,15 +17,20 @@
             Handler balanceChecker = new BalanceChecker();
             Handler havingInWareHouseChecker = new HavingInWareHouseChecker(warehouse);
 
+            Console.WriteLine("Баланс пользователя: 150. Проверяемый товар: банан с ценой 140\n");
+
+            Console.WriteLine("Обработка заказа: проверка наличия товара на складе и баланса пользователя");
             balanceChecker.SetNextHandler(orderClaimer);
             havingInWareHouseChecker.SetNextHandler(balanceChecker);
 
             havingInWareHouseChecker.HandleRequest(commonUser);
 
-
+            Console.WriteLine("\nПроверка только наличия товара на складе");
             havingInWareHouseChecker.SetNextHandler(orderClaimer);
             havingInWareHouseChecker.HandleRequest(commonUser);
 
+            Console.WriteLine("\nПрограмма завершила работу. Поток заснул на 100 секунд");
+            Thread.Sleep(100000);
         }
     }
 }

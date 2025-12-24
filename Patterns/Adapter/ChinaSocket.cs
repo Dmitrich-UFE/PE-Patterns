@@ -19,7 +19,7 @@ namespace Adapter
         internal void Disonnect() 
         {
             _chinaFork = null;
-            Console.WriteLine("China connected"); 
+            Console.WriteLine("China disconnected"); 
         }
     }
 }

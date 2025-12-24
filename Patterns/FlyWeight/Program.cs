@@ -11,6 +11,9 @@
 
             foreach (var item in grassList)
                 item.DrawOnMap();
+
+            Console.WriteLine("\nПрограмма завершила работу. Поток заснул на 100 секунд");
+            Thread.Sleep(100000);
         }
 
 

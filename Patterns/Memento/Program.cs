@@ -34,8 +34,8 @@ namespace Memento
             _editor.Restore(Undo());
             Console.WriteLine($"Сейчас в редакторе сохранено {_editor.Count()} фигур");
 
-            Thread.Sleep(10000);
-
+            Console.WriteLine("\nПрограмма завершила работу. Поток заснул на 100 секунд");
+            Thread.Sleep(100000);
         }
 
         static EditorMemento Undo() 

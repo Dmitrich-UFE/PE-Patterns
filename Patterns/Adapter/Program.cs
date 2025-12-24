@@ -13,6 +13,9 @@
             //chinaSocket.Connect(euroFork);
             chinaSocket.Connect(euroToChina);
 
+            Console.WriteLine("\nПрограмма завершила работу. Поток заснул на 100 секунд");
+            Thread.Sleep(100000);
+
         }
     }
 }

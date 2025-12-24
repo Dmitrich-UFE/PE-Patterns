@@ -15,8 +15,15 @@
             PC strongPC = pcbuilder.getResult();
             Laptop weakLaptop = laptopbuilder.getResult();
 
+            Console.WriteLine("laptopbuilder собрал слабый ноутбук:");
             Console.WriteLine(weakLaptop.ToString());
+
+
+            Console.WriteLine("pcbuilder собрал мощный ПК:");
             Console.WriteLine(strongPC.ToString());
+
+            Console.WriteLine("\nПрограмма завершила работу. Поток заснул на 100 секунд");
+            Thread.Sleep(100000);
         }
     }
 }

@@ -23,6 +23,7 @@ namespace Chain_of_Responsibility
 
         void Handler.HandleRequest(User user) 
         {
+            Console.WriteLine("Идет проверка...");
             if (_nextHandler != null && _warehouse.FindInWareHouse(user.OrdingGood)) 
             {
                 Console.WriteLine("Товар доступен для заказа");

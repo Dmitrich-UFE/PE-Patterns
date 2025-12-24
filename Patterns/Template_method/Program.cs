@@ -11,6 +11,9 @@
 
             Console.WriteLine("\nАтакует скелет");
             monster.Do(new SkeletonAI());
+
+            Console.WriteLine("\nПрограмма завершила работу. Поток заснул на 100 секунд");
+            Thread.Sleep(100000);
         }
     }
 }

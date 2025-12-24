@@ -19,8 +19,10 @@
             _app.ExecuteCommand(_addSquare);
             _app.ExecuteCommand(_addTriangle);
             _app.ExecuteCommand(_addCircle);
-            _app.ExecuteCommand(_Undo); 
+            _app.ExecuteCommand(_Undo);
 
+            Console.WriteLine("\nПрограмма завершила работу. Поток заснул на 100 секунд");
+            Thread.Sleep(100000);
         }
     }
 }

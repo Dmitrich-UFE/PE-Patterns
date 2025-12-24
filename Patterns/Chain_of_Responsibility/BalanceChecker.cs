@@ -13,6 +13,7 @@ namespace Chain_of_Responsibility
 
         void Handler.HandleRequest(User user) 
         {
+            Console.WriteLine("Идет проверка...");
             if (_nextHandler != null && user.OrdingGood.Price < user.Balance) 
             {
                 Console.WriteLine("Денег достаточно для покупки");
